@@ -1,9 +1,9 @@
-def look_for_key(main_box):
-  pile = main_box.make_a_pile_to_look_through()
-  while pile is not empty:
-    box = pile.grab_a_box()
-    for item in box:
-      if item.is_a_box():
-        pile.append(item)
-      elif item.is_a_key():
-        print("found the key!")
+def quicksort(array):
+  if len(array) < 2:
+    return array 
+  else:
+    pivot = array[0] 
+    less = [i for i in array[1:] if i <= pivot] 
+    greater = [i for i in array[1:] if i > pivot] 
+    return quicksort(less) + [pivot] + quicksort(greater)
+print(quicksort([10, 5, 2, 3]))
