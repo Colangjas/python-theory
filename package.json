@@ -1,0 +1,23 @@
+{
+  "name": "python-theory",
+  "version": "1.0.0",
+  "description": "a place to make fun python things happen",
+  "main": "index.js",
+  "dependencies": {
+    "python": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colangjas/python-theory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colangjas/python-theory/issues"
+  },
+  "homepage": "https://github.com/Colangjas/python-theory#readme"
+}
